@@ -1,3 +1,92 @@
 /*
   Custom styles for Trackster App
 */
+html{
+  font-size: 16px;
+}
+
+body{
+  font-family: "Work Sans", sans-serif;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+}
+
+.header .row1{
+  background-color: rgb(35, 2, 63);
+  padding: 44px 0;
+}
+
+.header h1{
+  font-size: 2.5rem;
+  font-family: "Righteous", sans-serif;
+  color: rgb(255,0,171);
+  padding: 0;
+}
+
+.header input{
+  border-radius: 16px;
+  height: 40px;
+}
+
+input:focus {
+    outline-width: 0;
+}
+
+input::placeholder {
+  color: rgb(191,191,191);
+}
+
+.header i {
+  border-radius: 16px;
+  margin-left: 16px;
+  background-color: rgb(255,0,171);
+  color: rgb(35, 2, 63);
+  height: 40px;
+  text-align: center;
+  font-size: 1.9rem;
+  justify-content: center;
+}
+
+i:hover{
+  background-color: rgb(255,102,204);
+  cursor: pointer;
+}
+
+.row2{
+  background-color: rgb(104,0,255);
+  color: white;
+  font-size: 0.875rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+
+.result{
+  border-bottom: 1px solid gray;
+  padding: 9.6px 0;
+}
+
+.result:hover{
+  background-color: rgb(239,237,242);
+}
+
+.result i{
+  background-color: rgba(255,255,255,0);
+}
+
+.result i:hover{
+  color: (255, 102, 204);
+  border: none;
+}
+
+#play{
+  color: rgb(255,0,171);
+}
